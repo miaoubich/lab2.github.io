@@ -9,11 +9,14 @@ body {
 
 h1 {
     color: #A4A400;
-    background-color: #F0F0F0;
     font-family: Lucida Sans Unicode;
     font-size: 22pt bold;
-    text-align: center;
     text-decoration: underline;
+    word-spacing: 0.25em;
+    background-color: #F0F0F0;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2 {
@@ -67,6 +70,17 @@ blockquote {
     width: fit-content;
     text-align: right;
 }
-footer{
+
+footer {
     margin: 30px;
+}
+.ingredients li:before {
+    content: url(../img/pie_icon.gif);
+    margin-left: -20px;
+    margin-right: 10px;
+} 
+li ul li:before {
+    content: url(../img/pie_icon.gif);
+    margin-left: -20px;
+    margin-right: 10px;
 }
